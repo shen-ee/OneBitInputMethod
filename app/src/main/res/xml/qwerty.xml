@@ -1,0 +1,22 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="100%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    >
+    <!--<Row android:keyHeight="100dp">-->
+        <!--<Key android:codes="113" android:keyLabel="q" android:keyEdgeFlags="left"/>-->
+        <!--<Key android:codes="119" android:keyLabel="w"/>-->
+        <!--<Key android:codes="101" android:keyLabel="e"/>-->
+        <!--<Key android:codes="114" android:keyLabel="r"/>-->
+        <!--<Key android:codes="112" android:keyLabel="p" android:keyEdgeFlags="right"/>-->
+    <!--</Row>-->
+    <Row android:rowEdgeFlags="bottom"   android:keyHeight="340dp">
+        <Key
+            android:codes="-4"
+            android:keyLabel=""
+            android:keyWidth="100%p"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@android:color/transparent" />
+        <!--<Key android:codes="-5" android:keyLabel="" android:keyWidth="20%p" android:isRepeatable="true"/>-->
+    </Row>
+</Keyboard>

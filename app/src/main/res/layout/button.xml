@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="6dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="6dp"
+    android:baselineAligned="false">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="370dp">
+
+
+            <EditText
+                android:id="@+id/eT"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignTop="@id/textView4"
+                android:text=""
+                android:gravity="center"
+                >
+            </EditText>
+
+            <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="0.24"
+            android:layout_alignParentTop="true">
+
+            </TextView>
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="10dp"-->
+                <!--android:layout_alignParentTop="true">-->
+                <!--<Button-->
+                    <!--android:layout_marginStart="-3dp"-->
+                    <!--android:id="@+id/s0"-->
+                    <!--android:paddingStart="0dp"-->
+                    <!--android:paddingEnd="0dp"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="10dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_gravity="center" />-->
+
+                <!--<Button-->
+                    <!--android:layout_marginStart="-7dp"-->
+                    <!--android:id="@+id/s1"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="330dp"-->
+                    <!--android:paddingStart="0dp"-->
+                    <!--android:paddingEnd="0dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:textAllCaps="false" />-->
+
+                <!--<Button-->
+                    <!--android:layout_marginStart="-7dp"-->
+                    <!--android:id="@+id/s2"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="10dp"-->
+                    <!--android:paddingStart="0dp"-->
+                    <!--android:paddingEnd="0dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:textAllCaps="false" />-->
+
+                <!--<Button-->
+                    <!--android:layout_marginStart="-7dp"-->
+                    <!--android:id="@+id/s3"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="330dp"-->
+                    <!--android:paddingStart="0dp"-->
+                    <!--android:paddingEnd="0dp"-->
+                    <!--android:textAllCaps="false"-->
+                    <!--android:layout_weight="1" />-->
+
+                <!--<Button-->
+                    <!--android:layout_marginStart="-7dp"-->
+                    <!--android:id="@+id/s4"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="10dp"-->
+                    <!--android:paddingStart="0dp"-->
+                    <!--android:paddingEnd="0dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:textAllCaps="false" />-->
+
+                <!--<Button-->
+                    <!--android:layout_marginStart="-7dp"-->
+                    <!--android:id="@+id/s5"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="10dp"-->
+                    <!--android:paddingStart="0dp"-->
+                    <!--android:paddingEnd="0dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:textAllCaps="false" />-->
+
+                <!--<Button-->
+                    <!--android:layout_marginStart="-7dp"-->
+                    <!--android:layout_marginEnd="-3dp"-->
+                    <!--android:paddingStart="0dp"-->
+                    <!--android:paddingEnd="0dp"-->
+                    <!--android:id="@+id/s6"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="10dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:textAllCaps="false" />-->
+            <!--</LinearLayout>-->
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:layout_alignParentBottom="true">
+                <Button
+                    android:layout_marginStart="-3dp"
+                    android:id="@+id/btn"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="0dp"
+                    android:layout_width="0dp"
+                    android:layout_height="330dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:text="数符  返回  删除  换行  退出" />
+
+                <Button
+                    android:layout_marginStart="-7dp"
+                    android:id="@+id/btn1"
+                    android:layout_width="0dp"
+                    android:layout_height="330dp"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="0dp"
+                    android:text="b&#x000A;p&#x000A;m&#x000A;r"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:layout_marginStart="-7dp"
+                    android:id="@+id/btn2"
+                    android:layout_width="0dp"
+                    android:layout_height="330dp"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="0dp"
+                    android:text="f&#x000A;g&#x000A;k&#x000A;h"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:layout_marginStart="-7dp"
+                    android:id="@+id/btn3"
+                    android:layout_width="0dp"
+                    android:layout_height="330dp"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="0dp"
+                    android:text="d&#x000A;t&#x000A;n&#x000A;l"
+                    android:textAllCaps="false"
+                    android:layout_gravity="center"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_marginStart="-7dp"
+                    android:id="@+id/btn4"
+                    android:layout_width="0dp"
+                    android:layout_height="330dp"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="0dp"
+                    android:text="无声&#x000A;j&#x000A;q&#x000A;x"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:layout_marginStart="-7dp"
+                    android:id="@+id/btn5"
+                    android:layout_width="0dp"
+                    android:layout_height="330dp"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="0dp"
+                    android:text="zh&#x000A;ch&#x000A;y&#x000A;sh"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:layout_marginStart="-7dp"
+                    android:layout_marginEnd="-3dp"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="0dp"
+                    android:id="@+id/btn6"
+                    android:layout_width="0dp"
+                    android:layout_height="330dp"
+                    android:text="z&#x000A;c&#x000A;w&#x000A;s"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textAllCaps="false" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
